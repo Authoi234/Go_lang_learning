@@ -13,5 +13,10 @@ func divide(a, b float64) (float64, error) {
 func main() {
 	fmt.Println("Started Error Handling in functions")
 	ans, _ := divide(10, 0)
+	// ans, err := divide(10, 0)
+	// if err != nil {
+	// 	fmt.Println("Error occurred:", err)
+	// 	return
+	// }
 	fmt.Println("Division is:", ans)
 }
